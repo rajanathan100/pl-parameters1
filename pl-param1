@@ -22,8 +22,8 @@ pipeline {
         }
         stage("deploy") {
             steps {
-                echo 'deplying the application...'
-                echo "deplying version ${params,VERSION}"
+                echo 'deploying the application...'
+                echo "deploying version ${params,VERSION}"
             }
         }
     }
